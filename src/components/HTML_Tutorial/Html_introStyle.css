@@ -1,0 +1,74 @@
+#hihi{
+   
+    padding: 16px 32px 32px 32px;
+    border-right: 1px solid #f1f1f1;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+.introul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    height: auto;
+    color:black;
+    font-size: auto;
+    white-space:auto;
+    background-color: transparent;
+    overflow: auto;
+    white-space: nowrap;
+}
+.ws-table-all {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+    border: 1px solid #ccc;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.ws-table-all th {
+    padding: 8px 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}
+.ws-table-all tr:nth-child(even) {
+    background-color: #E7E9EB;
+}
+.ws-table-all tr {
+    border-bottom: 1px solid #ddd;
+}
+.ws-table-all td, .ws-table-all th {
+    padding: 8px 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}
+.w3-note, .w3-warning {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: -32px;
+    margin-right: -32px;
+    padding: 16px 32px;
+    background-color: #ffffcc;
+}
+.ws-grey {
+    background-color: #E7E9EB!important;
+    color: black!important;
+}
+.fullwi{
+    border-left: none;
+    padding: 32px;
+
+    margin-left: -60px;
+    margin-right: -32px;
+    width: 120%;
+}
+
+

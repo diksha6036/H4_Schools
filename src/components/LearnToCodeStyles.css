@@ -1,0 +1,218 @@
+section{
+    margin: 0px;
+    padding: 0px;
+  }
+  svg{
+    margin: 0;
+    padding: 0;
+  }
+  .section_container{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    max-width: 500px;
+  }
+  .section_Heading{
+    padding-top:100px;
+    background-image:url(), url(https://community.nasscom.in/sites/default/files/media/images/Generative%20AI%20%E2%80%93%20Revolutionizing%20the%20Future%20of%20Technology_0.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right bottom, center center;
+    background-size: 400px 329px,cover;
+    height:100vh;
+  }
+  .section_Heading .section_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 480px;
+  }
+  .section_Heading h1{
+    font-size: 50px;
+    color: var(--peace);
+    margin: 0;
+  }
+  .section_Heading p{
+    color: var(--headings);
+    font-size: 21px;
+    font-weight: 550;
+    text-align: center;
+  }
+  .section_Heading_search{
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .section_Heading_search i{
+    background-color: var(--success);
+    height: 50px;
+    width: 75px;
+    font-size: 25px;
+    border-radius: 0 50px 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--peace);
+  }
+  .section_Heading_search input{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    outline: none;
+    padding: 0px 20px;
+    font-size: 16px;
+  }
+  .section_Heading a{
+    display: block;
+    color: var(--peace);
+    font-size: 22px;
+    font-weight: 550;
+    margin: 30px 0px;
+  }
+  .section_Heading a:hover{
+    color: var(--headings);
+  }
+  @media all and (min-width:800px){
+    .section_Heading h1{
+      font-size: 70px;
+    }
+    .section_Heading p{
+      font-size: 25px;
+    }
+  }
+ 
+  
+  .section_html{
+    position: relative;
+    top: -5px;
+    background-color: var(--light-green);
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+  }
+  .section_left{
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+  }
+  .section_left h1{
+    font-size: 60px;
+    margin: 0;
+  }
+  .section_left p{
+    font-size: 22px;
+    font-weight: 550;
+  }
+  .section_left a{
+    width: 100%;
+    max-width: 230px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 550;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50px;
+    margin-bottom: 30px;
+  }
+  .section_right{
+    display: none;
+  }
+  @media all and (min-width:1000px){
+    .section_left h1{
+      font-size: 80px;
+      margin: 0;
+    }
+    .section_left p{
+      font-size: 22px;
+      font-weight: 550;
+    }
+    .section_html{
+      display: flex;
+      justify-content: space-around;
+      padding: 80px 0px;
+    }
+    .section_left{
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .section_left a{
+        color:var(--peace);
+    }
+    .section_right{
+      display: block;
+      background-color: var(--bs-codeEditor-outside);
+      width: 42%;
+      box-shadow: -5px -5px 10px rgba(0,0,0,0.1);
+      border-radius: 5px;
+      padding: 5px 20px;
+      color: var(--bs-black);
+    }
+    .editor{
+      background-color: var(--peace);
+     
+      min-height: 100%;
+      border-left: 5px solid var(--bs-green);
+      padding: 10px;
+      
+    }
+    .editor_btn{
+      background-color: var(--bs-green);
+      color: var(--bs-white);
+      border: none;
+      font-size: 22px;
+      font-weight: 500;
+      padding: 10px 40px;
+      margin-top: 20px;
+      border-radius: 50px;
+      display: inline-block;
+      text-decoration: none;
+    }
+    .editor_btn:hover{
+      background-color: var(--bs-green);
+      color: var(--bs-white);
+    }
+  }
+
+
+  /******section_css*****/
+  .section_css,
+  .section_javascript,
+  .section_python,
+  .section_sql{
+    position: relative;
+    top: -5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 600px; */
+    padding: 80px 0px;
+
+  }
+
+  .section_css{
+    background-color: var(--headings);
+  }
+  .section_javascript{
+    background-color: var(--dark-bg);
+    color: var(--peace);
+  }
+  .section_python{
+    background-color: var(--lg-text);
+  }
+  .section_sql{
+    background-color: var(--blue);
+  }
+  .text-white{
+    color:var(--peace);
+  }

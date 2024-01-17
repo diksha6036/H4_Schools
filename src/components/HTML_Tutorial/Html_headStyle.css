@@ -1,0 +1,27 @@
+.introul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    height: auto;
+    color:black;
+    font-size: auto;
+    white-space:auto;
+    background-color: transparent;
+    overflow: auto;
+    white-space: nowrap;
+}
+.w3-code, w3-codeline {
+    font-size: 15px;
+}
+p {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    font-size: 15px;
+}
+.w3-border {
+    border: 1px solid #ccc!important;
+}

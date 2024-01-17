@@ -1,0 +1,20 @@
+.pos{
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    padding-top: 0% !important;
+    margin-top: 0 !important;
+}
+.form-control:focus{
+    border-color:#1c1c84 !important;
+    box-shadow: 0 0 0 0.1rem #1c1c84 !important;
+}
+.dropdown-link:hover{
+    box-shadow: 0 0 0 0.1rem #1c1c84!important;
+}
+.Wel{
+     /* font-family: 'Pacifico', cursive; */
+      /* font-family: 'Tilt Prism', cursive; */
+     /* font-family: 'Rubik Puddles', cursive; */
+    font-family:'Pacifico';
+}

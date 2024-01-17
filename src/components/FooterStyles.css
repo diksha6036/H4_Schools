@@ -1,0 +1,106 @@
+#footerwrapper {
+    background-image:url(https://static.vecteezy.com/system/resources/previews/010/787/931/original/space-and-cosmos-illustration-on-transparent-background-png.png), url(https://elements-video-cover-images-0.imgix.net/files/c18aa8b1-43cb-4884-a910-43e664d9a59b/inline_image_preview.jpg?auto=compress%2Cformat&fit=min&h=394&w=700&s=037804057b36d445014bf7ad11c35280);
+    background-repeat: no-repeat, repeat;
+    background-position: right bottom, center center;
+    background-size: 300px 309px,auto;
+}
+.myfooter{
+    margin:auto;
+    padding: 40px 80px 300px 80px;
+    max-width: 1400px;
+}
+.first{
+    /* overflow: hidden;
+    margin-top: 50px;
+    box-sizing: inherit; */
+    /* display: flex;
+    margin-top: 50px; */
+    /* margin-top: 50px; */
+    overflow: hidden;
+}
+.footerLinkOne img:hover{
+    transform: scale(1.03);
+}
+.footerLinkOne {
+    width: auto;
+    float: left;
+    padding: 40px;
+    color: var(--headings);
+    font-family: Source Sans Pro, sans-serif;
+}
+.footerLinkOne a{
+    text-decoration: none;
+    color: var(--headings);
+}
+.footerLinkOne a:hover{
+    text-decoration: underline;
+}
+.footerLinkOne:nth-child(1) {
+    padding: 30px 10px 30px 40px;
+}
+.second{
+    overflow: hidden;
+}
+.hh5{
+    font-family:'Source Sans Pro', sans-serif;
+}
+.hh5:hover{
+    color:var(--headings);
+}
+.footerlinks_2 {
+    width: auto;
+    float: left;
+    padding-left: 40px;
+    padding-right: 140px;
+    color: var(--lg-text);
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+}
+.footerlinks_2 a:visited, .footerlinks_2 a:link {
+    text-decoration: none;
+}
+.alinks{
+ color: var(--peace);
+}
+.alinks:hover{
+    color:var(--headings);
+}
+.footerlinks_2:nth-child(4) {
+    padding-right: 0;
+}
+
+.footersome {
+    padding: 60px 40px 10px 40px;
+    color: var(--lg-text);
+    font-size: 20px;
+}
+.footersome a {
+    margin-right: 10px;
+}
+.footersome a:hover,.footersome a i:hover{
+    color:var(--headings);
+}
+.footersome .textlink {
+    font-size: 15px;
+    text-decoration: none;
+}
+.st{
+    font-size:24px;
+    color:var(--peace);
+}
+.footertext {
+    padding-left: 40px;
+    color: var(--lg-text);
+    font-size: 12px;
+    line-height: 15px;
+}
+.textlink{
+    color:var(--peace);
+}
+/* body{
+    font-weight: bolder;
+} */
+#footerwrapper{
+    font-weight: bolder;
+}

@@ -1,0 +1,222 @@
+.learning_section{
+    text-align: center;
+    padding: 50px 10px;
+    position: relative;
+    top: -5px;
+  }
+  .learing_container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    line-height: 0%;
+    margin: auto;
+  }
+  .learning_section a{
+    display: block;
+  }
+  .signupFree{
+    align-self: center;
+    padding: 10px 35px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 50px;
+  }
+  .signupFree:hover{
+    align-self: center;
+    padding: 10px 35px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: var(--bs-green);
+    color: var(--peace);
+  }
+  .learing_container h1{
+    font-size: 55px;
+    margin-bottom: 0;
+  }
+  .learing_container p{
+    font-size: 21px;
+  }
+  .learing_container img{
+    margin: 20px 0;
+  }
+
+
+  .becomeaProUser{
+    position: relative;
+    top: -5px;
+    padding: 70px 30px;
+  }
+  .BecomeaPRO-container{
+    text-align: center;
+  }
+  .BecomeaPRO-container h1{
+    font-size: 55px;
+    margin-bottom: 1.4rem;
+  }
+  .BecomeaPRO-container p{
+    font-size: 21px;
+    margin: 0.5rem;
+  }
+  .becomePro_unlock{
+    color: var(--pink);
+    margin-bottom:1rem !important;
+  }
+  .becomeFeature_items{
+    display: flex;
+  }
+  .becomeFeature_list{
+    margin: auto;
+    width: fit-content;
+  }
+  .becomeFeature_items img{
+    margin-right: 15px;
+  }
+  .becomeFeature_items a{
+    color: currentColor;
+  }
+  .becomeFeature_items a:hover{
+    color: var(--headings);
+  }
+  .BecomeaPRO-container button{
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    width: 100%;
+    max-width: 250px;
+    margin-top: 30px;
+  }
+  .BecomeaPRO-container button a{
+    color: var(--peace);
+    text-decoration: none;
+  }
+
+  /*******colorSection******/
+  .colorSection{
+    height: 80vh;
+    margin-top: -5px;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: var(--grey-peach);
+  }
+  .colorSection h1{
+    font-size: 75px;
+  }
+  .colorSection p{
+    font-size: 31px;
+  }
+  .colorSection_container img{
+    height:200px;
+  }
+  .colorSection_container img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  .codeGame_container{
+    text-align: center;
+    background-color: var(--blue);
+    padding: 50px 20px;
+  }
+  .codeGame_container h1{
+    font-size: 75px;
+    margin: 0;
+    font-family: 'Freckle Face', cursive;
+  }
+  .codeGame_container p{
+    font-size: 31px;
+    font-family: 'Freckle Face', cursive;
+  }
+  .codeGame_container button{
+    padding: 10px 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    margin: auto;
+  }
+  .codeGame_container button a{
+    color: var(--peace);
+    text-decoration: none;
+  }
+  .codeGameBtn_container{
+    display: flex;
+    text-align: center;
+    justify-self: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  /******section_exercise*****/
+  .section_exercise{
+    background-color: var(--dark-bg);
+    padding: 50px 20px;
+  }
+  .section_exercise_container{
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .section_exercise_container h1{
+    font-size: 75px;
+    margin: 0;
+    color: var(--peace);
+  }
+  .section_exercise_container p{
+    font-size: 31px;
+    color: var(--peace);
+  }
+  .section_exercise_quiz{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 20px;
+  }
+  .section_exercise_quiz a{
+    min-width: 200px;
+    flex: 1;
+    padding: 60px;
+    font-size: 40px;
+    color: var(--dark-bg);
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  @media all and (min-width:1000px){
+    .section_exercise_quiz{
+      gap: 70px;
+    }
+  }
+
+  .webTemplate{
+    background-color: var(--grey-peach);
+    padding: 40px 20px;
+  }
+  .web_template_container{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+  }
+  .web_template_container img{
+    width: 100%;
+  }
+  .web_template_container h1{
+    font-size: 55px;
+    margin: 0;
+  }
+  .web_template_container p{
+    font-size: 21px;
+  }
+
+  .webTemplateLInk{
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+  }
+
+  

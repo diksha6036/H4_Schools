@@ -1,0 +1,24 @@
+.tutorials{
+    background-color: 	#113065;
+    color: var(--peace);
+    padding-top: 100px !important;
+    overflow: hidden;
+}
+.tutorials h2{
+    font-weight: bold;
+}
+.tutorials h2,h4{
+    color:var(--headings);
+}
+.tutorials .tut,.ref{
+    color:var(--headings);
+}
+.tutorials .tut:hover,.ref:hover{
+    color:var(--peace);
+    background: var(--success);
+    border-radius: 0.2rem;
+    height:fit-content;
+}
+.tutorials .btn{
+    width:12%;
+}

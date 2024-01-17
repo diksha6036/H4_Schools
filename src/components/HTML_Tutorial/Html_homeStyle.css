@@ -1,0 +1,138 @@
+.grid-container {
+    padding-top:110px;
+    display: grid;
+    grid-template-columns: 0.7fr 2fr; 
+    width: 100%; 
+    height: 100vh;
+}
+
+.grid-item {
+    /* border: 1px solid #000;  */
+    /* padding: 10px; 
+    grid-template-rows: 9fr 9fr ;
+    overflow: hidden; */
+    height: 100%;
+    width: 100%;
+    /* background-color: #3a638c; */
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+}
+.fd{
+    overflow:scroll;
+    background-color: #E7E9EB;
+}
+/* 
+.newd{
+    overflow:scroll;
+} */
+.button{
+    border: none;
+    background-color: white;
+    color: blue;
+    text-decoration: underline;
+}
+.fd::-webkit-scrollbar {
+    display: none;
+  }
+
+.rcolor{
+    background-color: transparent;
+}
+.ul1{
+    height: 100%;
+    background-color: transparent;
+    list-style-type: none;
+    font-size:large;
+    width: 100%;
+    padding-left: 0px !important;
+}
+.ul1 li a{
+    font-family: "Segoe UI",Arial,sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 2px 1px 1px 15px;
+    color: black;
+    
+}
+.ul1 li a:active{
+    background-color: #04AA6D!important;
+    color: #ffffff!important;
+}
+.ul1 li :hover, .ul1 li :focus {
+    color: #000000;
+    background-color: #cccccc;
+}
+.heading{
+    font-size: 21px;
+    padding-left: 15px;
+    margin: -4px 0 4px 0;
+    width: 204px;
+}
+#hihi{
+   
+        padding: 16px 32px 32px 32px;
+        border-right: 1px solid #f1f1f1;
+        font-family: "Segoe UI",Arial,sans-serif;
+}
+.h1 {
+    font-size: 42px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.btns{
+    margin-top: 1rem;
+    display: flex;
+    justify-content:space-between;
+}
+.topg{
+    background-color: 	#aad6ec ;
+    border-left: none;
+    padding: 32px;
+    margin: 24px;
+    margin-left: -32px;
+    margin-right: -32px;
+}
+p{
+    font-size: 20px;
+}
+.h4-example{
+    padding: 8px 20px;
+    margin: 24px -20px;
+    box-shadow: none!important;
+    background-color: #E7E9EB;
+    border-radius: 5px;
+}
+.h4-code{
+    font-size: 15px;
+    border-left: 4px solid #0077dd;
+    width: auto;
+    background-color: #fff;
+    color: #000;
+    padding: 8px 12px;
+}
+.restyle{
+    margin-top: 0px;
+    color: white;
+    text-decoration: none;
+}
+.trybtn{
+    margin-top: 15px;
+}
+.bm{
+    margin-bottom: 10px;
+}
+.fullwi{
+    border-left: none;
+    padding: 32px;
+
+    margin-left: -60px;
+    margin-right: -32px;
+    width: 120%;
+    height: 120%;
+}
+#hihi::-webkit-scrollbar {
+    display: none;
+  }

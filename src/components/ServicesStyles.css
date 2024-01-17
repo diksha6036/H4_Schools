@@ -1,0 +1,28 @@
+.services{
+    background-color: #113065;
+    color: var(--peace);
+    padding-top: 100px !important;
+    overflow: hidden;
+}
+.services h2{
+    font-weight: bold;
+}
+.services h2,h4{
+    color:var(--headings);
+}
+.services .cards{
+    background-color: #81b1ce;
+    color:var(--peace);
+}
+.services .cards:hover{
+    background-color: 	#0f4162;
+    color:var(--peace);
+    transform: scale(1.01);
+    cursor: pointer;
+}
+.services .title{
+    color:var(--headings);
+}
+.services .icons:hover{
+    transform: scale(1.01);
+}

@@ -1,0 +1,19 @@
+.exercises{
+    background-color: #113065;
+    color: var(--peace);
+    padding-top: 100px !important;
+    overflow: hidden;
+    padding-bottom: 100px !important;
+}
+.exercises h2,h4{
+    color:var(--headings);
+}
+.exercises .tut,.ref{
+    color:var(--headings);
+}
+.exercises .tut:hover,.ref:hover{
+    color:var(--peace);
+    background: var(--success);
+    border-radius: 0.2rem;
+    height:fit-content;
+}

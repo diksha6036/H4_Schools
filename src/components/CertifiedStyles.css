@@ -1,0 +1,18 @@
+.certified{
+    background-color: #113065;
+    color: var(--peace);
+    padding-top: 100px !important;
+    overflow: hidden;
+}
+.certified h2,h4{
+    color:var(--headings);
+}
+.certified .tut,.ref{
+    color:var(--headings);
+}
+.certified .tut:hover,.ref:hover{
+    color:var(--peace);
+    background: var(--success);
+    border-radius: 0.2rem;
+    height:fit-content;
+}

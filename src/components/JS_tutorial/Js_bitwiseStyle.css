@@ -1,0 +1,10 @@
+.ws-table-all td, .ws-table-all th {
+    padding: 8px 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}
+
+.w3-col.m6, .w3-half {
+    width: 49.99999%;
+}

@@ -1,0 +1,22 @@
+.w3-col.l3 {
+    width: 24.99999%;
+    float: left;
+}
+.w3-padding {
+    padding: 8px 16px!important;
+}
+.w3-col.l3 {
+    width: 24.99999%;
+}
+.w3-center {
+    text-align: center!important;
+}
+.fullwi{
+    border-left: none;
+    padding: 32px;
+
+    margin-left: -60px;
+    margin-right: -32px;
+    width: 120%;
+}
+
